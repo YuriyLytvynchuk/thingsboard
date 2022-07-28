@@ -30,7 +30,7 @@ public class TbMsgGeneratorNodeConfiguration implements NodeConfiguration<TbMsgG
     private String originatorId;
     private EntityType originatorType;
     private String jsScript;
-    private EntityId ownerId;
+    private EntityId groupOwnerId;
     private EntityType groupType;
 
     @Override
